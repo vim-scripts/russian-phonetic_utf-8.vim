@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=926
+
+A "phonetic" keymap for Cyrillic, for use under UTF-8 encoding.
+
+This is the keymap I use when I type Russian in gvim; it may or may not suit you. For instance, it uses several "dead keys" which might take some getting used to. Or you might want to use it as a starting point, then alter it to suit your tastes.
+
+See also, among others
+    :help 'keymap'
+    :help keymap-file-format
+    vimtip #246
+    vimscript #789
+
+and for a Bulgarian keymap (no ery, no eh-oborotnoye) using a slightly different but similar approach, see vimscript#1109
+
+Version history:
+
+2004-10-17    1.1     Enhancement: combining acute accent added
+                                  (for explicit stress, e.g. bólshaya "bigger" vs. bolsháya "big")
+2004-03-01    1.01    Bugfix: Normal mode version of mapping
+2004-02-29    1.0     Initial release
+
